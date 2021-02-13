@@ -1,6 +1,6 @@
 
 import './App.css';
-import Landing from './E-HomePage/Landing';
+import {Landing} from './Components/E-HomePage/Landing'
 
 
 function App() {

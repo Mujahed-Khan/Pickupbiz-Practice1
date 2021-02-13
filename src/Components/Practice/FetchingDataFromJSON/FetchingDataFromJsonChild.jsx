@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Landing = () => {
+export const FetchingDataFromJsonChild = () => {
     return (
         <div>
             
@@ -8,4 +8,3 @@ const Landing = () => {
     );
 };
 
-export default Landing;
