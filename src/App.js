@@ -1,12 +1,12 @@
 
 import './App.css';
-import {Landing} from './Components/E-HomePage/Landing'
+// import { FectchingDataFromJsonParent } from './Components/Practice/FetchingDataFromJSON/FectchingDataFromJsonParent';
 
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      {/* <FectchingDataFromJsonParent/> */}
     </div>
   
   );
