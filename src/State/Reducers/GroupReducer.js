@@ -16,6 +16,7 @@ const groupsDefaultState = {
             name: "Redux Practical",
             image: "Assets/Moonlight.jpg",
             desc: "This is First Group With Redux",
+            image:""
         },
         {
             name: "Redux Practical",
