@@ -1,29 +1,31 @@
-const GroupReducer = (state=GroupsDefaultState,action) => {
+export const groupReducer = (state = groupsDefaultState, action) => {
     switch (action.type) {
         case "ADD_NEW_GROUP":
             return {
                 ...state,
-            groups:[...state.groups,action.group,]
-            }
-  } 
-}
+                groups: [...state.groups, action.groups]
+            };
+        default:
+            return state;
+    };
+};
     
-const GroupsDefaultState = {
+const groupsDefaultState = {
     groups: [
         {
             name: "Redux Practical",
             image: "Assets/Moonlight.jpg",
-            desc:"This is First Group With Redux"
+            desc: "This is First Group With Redux",
         },
         {
             name: "Redux Practical",
             image: "Assets/Moonlight.jpg",
-            desc:"This is First Group"
+            desc: "This is First Group",
         },
         {
             name: "Redux Practical",
             image: "Assets/Moonlight.jpg",
-            desc:"This is First Group"
+            desc: "This is First Group",
         },
-    ]
-}
+    ],
+};
